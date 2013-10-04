@@ -5,3 +5,73 @@
 /* reset CSS file to reset browser default styling to a consistent starting point */
 @import url(reset.css);
 
+
+body {
+    background-image: url(../img/texture-light.png);
+    background-repeat: repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#main {
+	box-shadow: 2px 2px 4px;
+	padding:10px;
+}
+header img{
+	float: left;
+}
+header h1{
+	font-family: 'Boogaloo', sans-serif;
+	font-size: 36px;
+	color: #116189;
+}
+#motto{
+	font-style: italic;
+	font-size: 120%;
+}
+nav ul{
+	background-color: #D74710;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav a{
+	display: inline-block;
+	padding: 10px;
+	font-weight: bold;
+	color: #FFF;
+}
+nav a:hover{
+	background-color: #FF9D45;
+	border-radius: 5px;
+}
+nav a:link,
+nav a:visited{
+	text-decoration: none;
+}
+#factory{
+	float:left;
+	margin-right: 20px;
+}
+#shipping{
+	float: right;
+}
+footer{
+	border-top: thin;
+	border-color:gray;
+	font-style: italic;
+	font-size: 80%;
+}
+footer a:link{
+	text-decoration: none;
+}
+footer a:hover{
+	text-decoration: underline;
+}
